@@ -164,7 +164,9 @@ Partition tolerance\(分区容错性\)：分区，其实指网络分区。当你
 
 ## 参考
 
-[https://blog.csdn.net/huangshulang1234/article/details/79112398](https://blog.csdn.net/huangshulang1234/article/details/79112398) 
+[https://blog.csdn.net/huangshulang1234/article/details/79112398](https://blog.csdn.net/huangshulang1234/article/details/79112398)
 
-https://www.jianshu.com/p/3f9280301019
+[https://www.jianshu.com/p/3f9280301019](https://www.jianshu.com/p/3f9280301019) 
+
+https://www.cnblogs.com/dump/p/8125539.html
 
