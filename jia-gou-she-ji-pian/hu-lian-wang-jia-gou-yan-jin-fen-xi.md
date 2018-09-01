@@ -9,5 +9,7 @@
 
 ## 参考
 
-https://blog.csdn.net/jjjssskkk/article/details/78730407
+[https://blog.csdn.net/jjjssskkk/article/details/78730407](https://blog.csdn.net/jjjssskkk/article/details/78730407) 
+
+电子商务演变过程：https://blog.csdn.net/tuoni123/article/details/79590498  
 
