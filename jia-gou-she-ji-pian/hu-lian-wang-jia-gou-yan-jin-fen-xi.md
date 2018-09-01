@@ -7,5 +7,7 @@
 * [异步水平分层架构](/jia-gou-she-ji-pian/hu-lian-wang-jia-gou-yan-jin-fen-xi/yi-bu-shui-ping-fen-ceng-jia-gou.md)
 * [微服务化架构](/jia-gou-she-ji-pian/hu-lian-wang-jia-gou-yan-jin-fen-xi/wei-fu-wu-hua-jia-gou.md)
 
+## 参考
 
+https://blog.csdn.net/jjjssskkk/article/details/78730407
 
