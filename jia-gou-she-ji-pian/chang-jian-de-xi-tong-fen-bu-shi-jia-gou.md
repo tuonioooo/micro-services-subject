@@ -162,11 +162,9 @@ Partition tolerance\(分区容错性\)：分区，其实指网络分区。当你
 
 最终一致性的实现，通常都需要一个高可靠的消息队列。关于这个，网上有各种分享文章，后续也会对这个问题单独阐述。
 
+## 参考
 
+[https://blog.csdn.net/huangshulang1234/article/details/79112398](https://blog.csdn.net/huangshulang1234/article/details/79112398) 
 
-参考
-
-https://blog.csdn.net/huangshulang1234/article/details/79112398
-
-
+https://www.jianshu.com/p/3f9280301019
 
