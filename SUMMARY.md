@@ -25,7 +25,7 @@
   * [docker应用：ELK搭建](dockershi-zhan-pian/dockerying-yong-ff1a-elk-da-jian.md)
   * [docker应用：搭建rabbitmq、mysql等软件](dockershi-zhan-pian/dockerying-yong-ff1a-da-jian-rabbitmq-mysql-deng-ruan-jian.md)
 * [SpringCloud实战篇](springcloudshi-zhan-pian.md)
-  * config分布式配置中心
+  * [config分布式配置中心](springcloudshi-zhan-pian/configfen-bu-shi-pei-zhi-zhong-xin.md)
   * Eureka注册与发现服务
   * Ribbon客户端负载均衡
   * Hystrix服务熔断组件
