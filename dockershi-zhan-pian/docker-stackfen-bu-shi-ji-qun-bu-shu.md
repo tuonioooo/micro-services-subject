@@ -1,10 +1,10 @@
 # docker stack分布式集群部署
 
-参考
+## 参考
 
 官方文档：
 
-https://docs.docker.com/get-started/part5/
+[https://docs.docker.com/get-started/part5/](https://docs.docker.com/get-started/part5/)
 
 第三方博客：
 
