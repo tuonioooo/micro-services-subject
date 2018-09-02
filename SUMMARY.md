@@ -22,7 +22,6 @@
   * [docker stack分布式集群部署 ](dockershi-zhan-pian/docker-stackfen-bu-shi-ji-qun-bu-shu.md)
   * [docker portainer容器可视化管理工具](dockershi-zhan-pian/docker-portainerrong-qi-ke-shi-hua-guan-li-gong-ju.md)
   * [通过maven插件打包docker镜像](dockershi-zhan-pian/tong-guo-maven-cha-jian-da-bao-docker-jing-xiang.md)
-  * [docker部署运行java程序](dockershi-zhan-pian/dockerbu-shu-yun-xing-java-cheng-xu.md)
   * [docker应用：ELK搭建](dockershi-zhan-pian/dockerying-yong-ff1a-elk-da-jian.md)
-  * docker应用：搭建rabbitmq、mysql等软件
+  * [docker应用：搭建rabbitmq、mysql等软件](dockershi-zhan-pian/dockerying-yong-ff1a-da-jian-rabbitmq-mysql-deng-ruan-jian.md)
 
