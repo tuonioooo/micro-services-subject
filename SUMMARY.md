@@ -12,9 +12,8 @@
   * [微服务架构的思路](jia-gou-she-ji-pian/wei-fu-wu-jia-gou-de-si-lu.md)
 * [docker实战篇](dockershi-zhan-pian.md)
   * [docker基础](dockershi-zhan-pian/dockerji-chu.md)
+    * [入门教程](dockershi-zhan-pian/dockerji-chu/ru-men-jiao-cheng.md)
     * [镜像、容器、仓库](dockershi-zhan-pian/dockerji-chu/jing-xiang.md)
-    * 常用命令
-    * [官方文档查看方式](dockershi-zhan-pian/dockerji-chu/guan-fang-wen-dang-cha-kan-fang-shi.md)
   * docker安装与使用
   * 搭建docker私有仓库
   * docker swarm集群搭建
