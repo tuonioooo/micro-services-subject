@@ -19,7 +19,7 @@
   * [docker swarm集群搭建](dockershi-zhan-pian/docker-swarmji-qun-da-jian.md)
   * [docker compose部署脚本](dockershi-zhan-pian/docker-composebu-shu-jiao-ben.md)
   * [docker service 服务编排 ](dockershi-zhan-pian/docker-service-fu-wu-bian-pai.md)
-  * docker stack分布式集群部署 
+  * [docker stack分布式集群部署 ](dockershi-zhan-pian/docker-stackfen-bu-shi-ji-qun-bu-shu.md)
   * docker portainer容器可视化管理工具
   * 通过maven插件打包docker镜像
   * docker部署运行java程序
