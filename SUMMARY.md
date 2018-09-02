@@ -14,7 +14,7 @@
   * [docker基础](dockershi-zhan-pian/dockerji-chu.md)
     * [入门教程](dockershi-zhan-pian/dockerji-chu/ru-men-jiao-cheng.md)
     * [镜像、容器、仓库](dockershi-zhan-pian/dockerji-chu/jing-xiang.md)
-  * docker安装与使用
+  * [docker安装与使用](dockershi-zhan-pian/dockeran-zhuang-yu-shi-yong.md)
   * 搭建docker私有仓库
   * docker swarm集群搭建
   * docker compose部署脚本
