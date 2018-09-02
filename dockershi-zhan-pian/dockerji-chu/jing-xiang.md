@@ -8,10 +8,9 @@ Docker 包括三个基本概念:
 容器（Container）  
 仓库（Repository）
 
-这三部分组成了Docker的整个生命周期，如下图所示，容器是由镜像实例化而来的，这和我们学习的面向对象的概念十分相似，我们可以把`镜像`想象成`类`,把`容器`想象成类经过实例化后的`对象`，这样就非常好理解镜像和容器的关系了。  
+这三部分组成了Docker的整个生命周期，如下图所示，容器是由镜像实例化而来的，这和我们学习的面向对象的概念十分相似，我们可以把`镜像`想象成`类`,把`容器`想象成类经过实例化后的`对象`，这样就非常好理解镜像和容器的关系了。
 
-
-![](https://upload-images.jianshu.io/upload_images/2156466-b4341e9da2e6e170.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/700)
+![](https://upload-images.jianshu.io/upload_images/2156466-b4341e9da2e6e170.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/700)
 
 Docker生命周期
 
@@ -46,14 +45,10 @@ Docker 仓库是用来包含镜像的位置，Docker提供一个注册服务器�
 
 ## Reference
 
-> [http://tech.365rili.com/?p=41](https://link.jianshu.com/?t=http://tech.365rili.com/?p=41)  
-> [https://yeasy.gitbooks.io/docker\_practice/content/index.html](https://link.jianshu.com/?t=https://yeasy.gitbooks.io/docker_practice/content/index.html)
->
-> http://dockone.io/article/783
->
-> https://www.cnblogs.com/bethal/p/5942369.html
->
-> https://blog.csdn.net/xfyimengweima1314/article/details/79046873
+> [http://tech.365rili.com/?p=41](https://link.jianshu.com/?t=http://tech.365rili.com/?p=41) [https://yeasy.gitbooks.io/docker\_practice/content/index.html](https://link.jianshu.com/?t=https://yeasy.gitbooks.io/docker_practice/content/index.html)
+> [http://dockone.io/article/783](http://dockone.io/article/783)
+> [https://www.cnblogs.com/bethal/p/5942369.html](https://www.cnblogs.com/bethal/p/5942369.html)
+> [https://blog.csdn.net/xfyimengweima1314/article/details/79046873](https://blog.csdn.net/xfyimengweima1314/article/details/79046873)
 
 思想必定是在与人交流中产生，而在孤独中进行加工和表达
 
