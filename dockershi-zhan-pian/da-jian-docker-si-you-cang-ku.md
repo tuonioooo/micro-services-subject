@@ -2,13 +2,13 @@
 
 ## **环境准备**
 
-环境：两个装有Docker 17.09.0-ce 的centos7虚拟机   
-虚拟机一：192.168.0.154 用户开发机   
+环境：两个装有Docker 17.09.0-ce 的centos7虚拟机  
+虚拟机一：192.168.0.154 用户开发机  
 虚拟机二：192.168.0.153 用作私有仓库
 
 ## **搭建私有仓库**
 
-**  
+**    
 **在153机器上下载registry镜像
 
 ```
@@ -32,8 +32,6 @@ docker run -d -p 5000:5000 -v /opt/data/registry:/tmp/registry registry
 b4c21ca8cf8a23ea72e0471909742541ffc312ea5cf492486b5bdc3130179864
 ```
 
-
-
 ![](https://images2017.cnblogs.com/blog/1207331/201711/1207331-20171111102843013-2127942541.png)
 
 可以看到容器存放位置不在/tmp 下
@@ -44,13 +42,11 @@ b4c21ca8cf8a23ea72e0471909742541ffc312ea5cf492486b5bdc3130179864
 
 可以看到registry 挂载目录是 在 /var/lib/registry 下
 
-我们重新启动下 registry
+我们重新启动下 registry
 
 ```
-docker run -d -p 5000:5000 -v /opt/data/registry:/var/lib/registry  -v /data/config.yml:/etc/docker/registry/config.yml  registry 
+docker run -d -p 5000:5000 -v /opt/data/registry:/var/lib/registry  -v /data/config.yml:/etc/docker/registry/config.yml  registry
 ```
-
-
 
 /data/config.yml 这个是什么呢？我们在下面删除仓库镜像介绍
 
@@ -58,7 +54,7 @@ docker run -d -p 5000:5000 -v /opt/data/registry:/var/lib/registry  -v /data/co
 
 ```
 cat config.yml
- 
+
 version: 0.1
 log:
   fields:
@@ -110,18 +106,16 @@ docker push 192.168.0.153:5000/busybox
 因为Docker从1.3.X之后，与docker registry交互默认使用的是https，然而此处搭建的私有仓库只提供http服务，所以当与私有仓库交互时就会报上面的错误。为了解决这个问题需要在启动docker server时增加启动参数为默认使用http访问。修改docker启动配置文件：
 
 ```
-vim  /usr/lib/systemd/system/docker.service 
+vim  /usr/lib/systemd/system/docker.service
 ```
 
-找到 ExecStart
+找到 ExecStart
 
 ```
 ExecStart=/usr/bin/dockerd  --insecure-registry 192.168.0.153:5000
 ```
 
 红色字体为添加的
-
-
 
 **重启docker：**
 
@@ -136,8 +130,6 @@ systemctl restart docker
 docker push 192.168.0.153:5000/busybox
 ```
 
-
-
 接下来我们从私有仓库中pull下来该镜像。
 
 ```
@@ -150,8 +142,6 @@ sudo docker pull 192.168.0.153:5000/busybox
 # curl -XGET http://registry:5000/v2/_catalog
 # curl -XGET http://registry:5000/v2/image_name/tags/list
 ```
-
-
 
 # Registry删除镜像、垃圾回收
 
@@ -175,7 +165,7 @@ d221a7f5318b: Pushed
 v1: digest: sha256:6a67ba482a8dd4f8143ac96b1dcffa5e45af95b8d3e37aeba72401a5afd7ab8e size: 2204
 ```
 
-查看仓库镜像 （查看仓库镜像[脚本 get.py](http://www.cnblogs.com/Tempted/p/7768564.html)）
+查看仓库镜像 （查看仓库镜像[脚本 get.py](http://www.cnblogs.com/Tempted/p/7768564.html)）
 
 ```
 [root@master scripts]# python get.py                           
@@ -228,8 +218,6 @@ Content-Type: text/plain; charset=utf-8
 
 可以看到镜像索引已经被删除
 
-
-
 查看数据大小
 
 ```
@@ -269,4 +257,16 @@ INFO[0000] Deleting blob: /docker/registry/v2/blobs/sha256/b2/b29205236f1d3eb614
 ```
 
 可以看到镜像数据已被删除
+
+## 参考
+
+https://www.linuxidc.com/Linux/2018-03/151308.htm
+
+https://blog.csdn.net/mmd0308/article/details/77162004
+
+https://www.cnblogs.com/Tempted/p/7768694.html
+
+
+
+
 
