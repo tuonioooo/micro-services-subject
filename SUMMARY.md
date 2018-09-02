@@ -24,4 +24,11 @@
   * [通过maven插件打包docker镜像](dockershi-zhan-pian/tong-guo-maven-cha-jian-da-bao-docker-jing-xiang.md)
   * [docker应用：ELK搭建](dockershi-zhan-pian/dockerying-yong-ff1a-elk-da-jian.md)
   * [docker应用：搭建rabbitmq、mysql等软件](dockershi-zhan-pian/dockerying-yong-ff1a-da-jian-rabbitmq-mysql-deng-ruan-jian.md)
+* [SpringCloud实战篇](springcloudshi-zhan-pian.md)
+  * config分布式配置中心
+  * Eureka注册与发现服务
+  * Ribbon客户端负载均衡
+  * Hystrix服务熔断组件
+  * Feign声明式服务调用
+  * Zuul网关服务
 
