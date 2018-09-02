@@ -16,7 +16,7 @@
     * [镜像、容器、仓库](dockershi-zhan-pian/dockerji-chu/jing-xiang.md)
   * [docker安装与使用](dockershi-zhan-pian/dockeran-zhuang-yu-shi-yong.md)
   * [搭建docker私有仓库](dockershi-zhan-pian/da-jian-docker-si-you-cang-ku.md)
-  * docker swarm集群搭建
+  * [docker swarm集群搭建](dockershi-zhan-pian/docker-swarmji-qun-da-jian.md)
   * docker compose部署脚本
   * docker service 服务编排 
   * docker stack分布式集群部署 
